@@ -1,0 +1,140 @@
+{
+    "edges": [
+        {
+            "color": "undefined",
+            "id": "ac806fbf",
+            "label": "通过",
+            "shape": "smoothArrow",
+            "action": 1,
+            "source": "af197896",
+            "target": "60ea3558"
+        },
+        {
+            "action": 1,
+            "color": "undefined",
+            "id": "6e001b36",
+            "label": "通过",
+            "shape": "smoothArrow",
+            "source": "60ea3558",
+            "target": "80d13c36"
+        },
+        {
+            "action": 2,
+            "color": "undefined",
+            "id": "79764613",
+            "label": "拒绝",
+            "shape": "smoothArrow",
+            "source": "60ea3558",
+            "target": "2addec69"
+        },
+        {
+            "action": 1,
+            "color": "undefined",
+            "controlPoints": [
+                {"x": 510.1999969482422, "y": 250},
+                {"x": 563, "y": 271},
+                {"x": 633.1285925474206, "y": 300}
+            ],
+            "id": "241fbf87",
+            "label": "通过",
+            "shape": "smoothArrow",
+            "source": "80d13c36",
+            "target": "91de231a"
+        },
+        {
+            "action": 1,
+            "color": "undefined",
+            "controlPoints": [
+                {"x": 510.1999969482422, "y": 400},
+                {"x": 558, "y": 356},
+                {"x": 633.1285925474206, "y": 300}
+            ],
+            "id": "d5557e46",
+            "label": "通过",
+            "shape": "smoothArrow",
+            "source": "2addec69",
+            "target": "91de231a"
+        },
+        {
+            "action": 2,
+            "color": "undefined",
+            "controlPoints": [
+                {"x": 475, "y": 234},
+                {"x": 400, "y": 200},
+                {"x": 325, "y": 250},
+                {"x": 300, "y": 309}
+            ],
+            "id": "c0f660dd",
+            "label": "拒绝",
+            "shape": "smoothArrow",
+            "source": "80d13c36",
+            "sourceAnchor": 0,
+            "target": "60ea3558",
+            "targetAnchor": 0
+        }
+    ],
+    "name": "测试流程",
+    "nodes": [
+        {
+            "account": [],
+            "color": "undefined",
+            "func": "undefined",
+            "id": "af197896",
+            "label": "开始",
+            "nodeType": 0,
+            "shape": "circle",
+            "workflow": "undefined",
+            "x": 150,
+            "y": 325
+        },
+        {
+            "account": [],
+            "color": "undefined",
+            "func": "undefined",
+            "id": "91de231a",
+            "label": "结束",
+            "nodeType": 2,
+            "shape": "rhombus",
+            "workflow": "undefined",
+            "x": 675,
+            "y": 300
+        },
+        {
+            "account": [],
+            "color": "undefined",
+            "func": "undefined",
+            "id": "80d13c36",
+            "label": "节点2",
+            "nodeType": 1,
+            "shape": "rect",
+            "workflow": "undefined",
+            "x": 475,
+            "y": 250
+        },
+        {
+            "account": [],
+            "color": "undefined",
+            "func": "undefined",
+            "id": "60ea3558",
+            "label": "节点1",
+            "nodeType": 1,
+            "shape": "rect",
+            "workflow": "undefined",
+            "x": 300,
+            "y": 325
+        },
+        {
+            "account": [],
+            "color": "undefined",
+            "func": "undefined",
+            "id": "2addec69",
+            "label": "节点3",
+            "nodeType": 1,
+            "shape": "rect",
+            "workflow": "undefined",
+            "x": 475,
+            "y": 400
+        }
+        
+    ]
+}
